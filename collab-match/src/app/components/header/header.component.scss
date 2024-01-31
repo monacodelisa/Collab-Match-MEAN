@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(#a08d9e, #836a80, #685166);
+  padding: 2.5rem;
+  height: 4rem;
+
+  a {
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin: 0 0.5rem;
+
+    img {
+      width: 1.5rem;
+      height: 1.5rem;
+      margin: 0.3rem;
+    }
+
+    h1 {
+      font-size: 1.5rem;
+      ;
+    }
+  }
+
+  .navigation {
+    display: flex;
+
+    .page-links {
+      display: flex;
+    }
+
+    .user-area {
+      button {
+        background-color: #af9cae;
+        color: #fff;
+        margin: 0 0.5rem;
+      }
+    }
+  }
+}
