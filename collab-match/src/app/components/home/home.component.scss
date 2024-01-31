@@ -1,43 +1,52 @@
-.home-content {
+.home-background {
+  position: relative;
   background: url(../../../assets/images/homepage-background-pexels.78147ae1a1a1b77e.jpeg) no-repeat top center;
   background-size: cover;
   background-attachment: fixed;
+  color: #fff;
+  min-height: 65vh;
+  text-align: center;
   overflow: hidden;
   padding: 4rem;
-  text-align: center;
   opacity: 0.7;
+}
+
+.card {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #544d53b6;
+  width: 35vw;
+  height: 60vh;
+  margin: auto;
+  padding: 2.5rem 2.5rem 3.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 0 2px 2px #00000050;
   color: #fff;
 
-  .wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background-color: #443e43b6;
-    width: 40vw;
-    margin: auto;
-    padding: 2.5rem 2.5rem 3.5rem;
-    border-radius: 1rem;
-    box-shadow: 0 0 2px 2px #00000050;
+  h1 {
+    font-size: 3rem;
+    line-height: 4rem;
+    margin-bottom: 1rem;
+  }
 
-    h1 {
-      font-size: 3rem;
-      line-height: 4rem;
-      margin-bottom: 1rem;
-    }
+  p {
+    font-size: 1.5rem;
+    line-height: 2.8rem;
+    margin-bottom: 2rem;
+  }
 
-    p {
-      font-size: 1.5rem;
-      line-height: 2.8rem;
-      margin-bottom: 2rem;
-    }
-
-    .actions {
-      button {
-        background-color: #af9cae;
-        color: #fff;
-        margin: 0 0.5rem;
-      }
+  .actions {
+    button {
+      background-color: #af9cae;
+      color: #fff;
+      margin: 0 0.5rem;
     }
   }
 }
